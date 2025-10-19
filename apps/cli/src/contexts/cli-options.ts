@@ -16,5 +16,6 @@ const overwrite = Options.boolean("overwrite", { aliases: ["o"] })
 const all = Options.boolean("all", { aliases: ["a"] })
 const path = Options.text("path").pipe(Options.withDefault(""), Options.withAlias("p"))
 const template = Options.text("template").pipe(Options.withAlias("t"), Options.withDefault(""))
+const client = Options.text("client").pipe(Options.withDefault(""), Options.withAlias("cl"))
 
-export { CliOptions, cwd, summary, yes, overwrite, all, path, template }
+export { CliOptions, cwd, summary, yes, overwrite, all, path, template, client }

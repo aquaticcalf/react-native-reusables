@@ -289,6 +289,23 @@ const TEMPLATES = [
   }
 ]
 
+const BLOCKS = [
+  "sign-in-form",
+  "sign-up-form",
+  "verify-email-form",
+  "reset-password-form",
+  "forgot-password-form",
+  "social-connections",
+  "user-menu",
+  "sign-in-form-clerk",
+  "sign-up-form-clerk",
+  "verify-email-form-clerk",
+  "reset-password-form-clerk",
+  "forgot-password-form-clerk",
+  "social-connections-clerk",
+  "user-menu-clerk"
+]
+
 const PROJECT_MANIFEST = {
   dependencies: DEPENDENCIES,
   devDependencies: DEV_DEPENDENCIES,
@@ -298,6 +315,7 @@ const PROJECT_MANIFEST = {
   customFileChecks: CUSTOM_FILE_CHECKS,
   nativewindEnvFile: NATIVEWIND_ENV_FILE,
   components: COMPONENTS,
+  blocks: BLOCKS,
   templates: TEMPLATES
 }
 
